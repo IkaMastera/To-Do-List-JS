@@ -22,5 +22,8 @@ document.querySelector("#push").onclick = function () {
         this.classList.toggle("completed");
       };
     }
+
+    // Clearing Input field after each entry Functionality
+    document.querySelector("#newtask input").value = "";
   }
 };
