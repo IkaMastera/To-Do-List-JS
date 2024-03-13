@@ -82,6 +82,7 @@ body {
   align-items: center;
   justify-content: space-between;
   border-bottom: 2px solid #d1d3d4;
+  cursor: pointer;
 }
 
 .task span {
@@ -98,4 +99,8 @@ body {
   border: none;
   outline: none;
   cursor: pointer;
+}
+
+.completed {
+  text-decoration: line-through;
 }
